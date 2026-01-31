@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} | The Obvious</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">The Obvious</a>
+            <div class="nav-links">
+                <a href="/politics/">Politics</a>
+                <a href="/technology/">Technology</a>
+                <a href="/markets/">Markets</a>
+                <a href="/world/">World</a>
+                <a href="/opinion/">Opinion</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="article">
+        <article>
+            <div class="article-meta">
+                <span class="category">{{CATEGORY}}</span>
+                <span class="date">{{DATE}}</span>
+                <span class="read-time">{{READ_TIME}} min read</span>
+            </div>
+            
+            <h1>{{TITLE}}</h1>
+            
+            <p class="subtitle">{{SUBTITLE}}</p>
+            
+            <div class="byline">
+                <span class="author">The Obvious</span>
+            </div>
+            
+            <div class="article-content">
+                {{CONTENT}}
+            </div>
+            
+            <div class="article-footer">
+                <p class="disclaimer">Analysis based on reporting from multiple sources.</p>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 The Obvious. All rights reserved.</p>
+    </footer>
+</body>
+</html>
